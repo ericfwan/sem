@@ -1,1 +1,1 @@
-![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/<repository owner>/<repository>/<action file name>.yml?branch=<branch name>)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/ericfwan/sem/main.yml?branch=master)
