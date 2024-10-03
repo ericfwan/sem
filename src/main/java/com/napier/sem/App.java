@@ -5,8 +5,6 @@ import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.MongoCollection;
 import org.bson.Document;
 
-import java.util.Optional;
-
 public class App
 {
     public static void main(String[] args)
@@ -21,7 +19,7 @@ public class App
         Document doc = new Document("name", "Kevin Sim")
                 .append("class", "Software Engineering Methods")
                 .append("year", "2021")
-                .append("result", new Document("CW", Optional.of(95)).append("EX", Optional.of(85)));
+                .append("result", new Document("CW", 95).append("EX", 85));
         // Add document to collection
         collection.insertOne(doc);
 
